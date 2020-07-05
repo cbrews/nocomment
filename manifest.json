@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "No Comment",
+  "version": "1.0",
+  "description": "No comments on popular social sites.",
+  "icons": {
+    "48": "icons/nocomment-48.png",
+    "96": "icons/nocomment-96.png",
+    "240": "icons/nocomment-240.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://news.ycombinator.com/*"],
+      "js": ["polyfill.js", "nocomment-hn.js"]
+    }
+  ]
+}
