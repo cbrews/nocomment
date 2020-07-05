@@ -1,0 +1,18 @@
+{
+  "name": "no-comments",
+  "version": "1.0.0",
+  "description": "Strips comment links from social media sites. ",
+  "scripts": {
+    "start": "web-ext run",
+    "build": "web-ext build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbrews/nocomment.git"
+  },
+  "author": "Chris Brousseau",
+  "license": "MIT",
+  "dependencies": {
+    "web-ext": "^4.3.0"
+  }
+}
